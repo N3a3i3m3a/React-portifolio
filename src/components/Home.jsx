@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Home() {
   return (
-    <section name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-500 px-12 via-black' > 
+    <section name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-500 px-12 via-gray-800' > 
       <div className='max-w-creen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-3xl text-white font-bold '>I'm a front end developer, GIS analyst, and Architectural designer</h2>

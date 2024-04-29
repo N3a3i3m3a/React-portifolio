@@ -6,7 +6,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import { BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 import Layouts from './components/Layouts'
-// import Skills from './components/Skills'
+import Skills from './components/Skills'
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
         <Route path ='/About' element={<About/>}></Route>
         <Route path ='/Experience' element={<Experience/>}></Route>
         <Route path ='/Contact' element={<Contact/>}></Route>
+        <Route path ='/SkillsList' element={<Skills/>}></Route>
         {/* <Route path ='/Socialinks' element={<Socialinks/>}></Route> */}
         </Route>
       </Routes>

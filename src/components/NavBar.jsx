@@ -17,7 +17,7 @@ const NavBar = () => {
         <Link to='./About'>About me</Link> 
       </div>
       <div>
-        <Link to='./Skills'>Skills</Link> 
+        <Link to='./SkillsList'>Skills</Link> 
       </div>
       <div>
         <Link to='./Experience'>Experience</Link> 
